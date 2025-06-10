@@ -5,6 +5,7 @@ use App\Models\AttendanceModel;
 use App\Models\EventModel;
 use App\Models\MemberModel;
 
+
 class AttendanceController extends BaseController {
     protected AttendanceModel $attendanceModel;
     protected EventModel $eventsModel;
